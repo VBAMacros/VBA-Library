@@ -1,0 +1,9 @@
+Sub sbInputBox()
+'We can accept the values from user using InputBox Function
+Dim strVal as String
+strVal=InputBox ("Enter a Value")
+
+If cInt(strVal)>1000 Then
+MsgBox "You hvave entered a value which is greater than 1000"
+End if
+End Sub
